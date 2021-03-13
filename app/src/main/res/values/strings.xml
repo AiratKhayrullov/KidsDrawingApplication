@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kids Drawing Application</string>
+    <string name="content_des_image_size_of_brush">image_size_of_brush</string>
+</resources>

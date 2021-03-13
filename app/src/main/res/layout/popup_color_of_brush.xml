@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_main_color"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/white" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/black" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/grey_light"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/grey_light" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/grey_dark"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/grey_dark" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/brown"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/brown" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/red"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/red" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/orange"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/orange" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/yellow"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/yellow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/pink"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/pink" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/buble_gum"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/buble_gum" />
+
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/purple"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/purple" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/blue"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/blue" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp">
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/navy_blue"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/navy_blue" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/green"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/green" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:background="@color/green_dark"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/green_dark" />
+
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+
+            android:layout_weight="1"
+            android:background="@color/toxic"
+            android:onClick="paintClicked"
+            android:src="@drawable/background_unpressed_color_element"
+            android:tag="@color/toxic" />
+    </LinearLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
