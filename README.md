@@ -29,7 +29,7 @@ Let's just draw a sun
 
 ## Contacts
 
-For questions or smth else you can write: Telegram - [@AiratKhayrullov]
+For questions or smth else you can write me in telegram - [@AiratKhayrullov]
 
 [@AiratKhayrullov]:
   https://t.me/AiratKhayrullov
