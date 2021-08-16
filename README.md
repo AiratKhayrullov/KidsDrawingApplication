@@ -9,7 +9,7 @@ This is my first real pet-project. Here I implemented some basic features like a
 - This app was developed for getting knowledge about View, Canvas, Drawing in Canvas, etc.
 - This app might be enhanced in the future
 
-## Examples of working our app
+## Examples of working the app
 Let's just draw a sun
 
 ![47a5839e-427b-4043-a755-34181ab9ed82](https://user-images.githubusercontent.com/67463538/129621807-07876dbe-8d81-4d63-af9a-a5ebdfc1e9db.gif)
