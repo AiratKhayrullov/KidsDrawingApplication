@@ -11,6 +11,7 @@ import android.util.DisplayMetrics
 import android.util.TypedValue
 import android.view.Gravity
 import android.view.View
+import android.view.WindowManager
 import android.widget.ImageButton
 import android.widget.PopupWindow
 import android.widget.Toast
@@ -43,6 +44,14 @@ class MainActivity : AppCompatActivity() {
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         val mainLayout = activityMainBinding.root
         setContentView(mainLayout)
+        window.setFlags(
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        );
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            window.attributes.layoutInDisplayCutoutMode =
+                WindowManager.LayoutParams.LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES;
+        }
 
         getMetricsForWindow()
 
